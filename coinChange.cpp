@@ -1,4 +1,5 @@
 #include <bits/stdc++.h>
+#include <vector>
 using namespace std;
  
 int deno[] = { 1, 2, 5, 10, 20,
@@ -23,8 +24,7 @@ void findMin(int V)
         cout << ans[i] << " ";
 }
 
-int main()
-{
+int main() {
     int n = 70;
     cout << "Following is minimal"
          << " number of change for " << n
